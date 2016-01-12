@@ -5,7 +5,7 @@ Jmeter介绍
 
 [apache jmeter官网](http://jmeter.apache.org/)是这样介绍自己的：
 
-Apache JMeter™ 程序是一个开源软件， 一个100%纯java的应用， 设计用来测试功能和评估性能。最初设计用于测试web 应用，并扩展为为其他测试功能。
+Apache JMeter™ 程序是一个开源软件， 一个100%纯java的应用， 设计用来测试功能和评估性能。最初设计用于测试web应用，后扩展其他测试功能。
 
 > The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
 
@@ -57,6 +57,12 @@ Apache JMeter可以用于测试静态和动态资源的性能(Webservices (SOAP/
 > please note that JMeter is not a browser, it works at protocol level.
 
 虽然在web-services和远程服务看起来，jmeter看上去像一个浏览器（或者，多个浏览器）。但是jmeter是不执行任何浏览器支持的操作的。实际上， jmeter不执行在HTML页面上的javascript，也不像浏览器做的那样渲染HTML页面。
+
+# Jmeter的历史
+
+Apache软件基金会的 Stefano Mazzocchi 是jmeter的最初开发者。他写jmeter主要是为了测试Apache JServ （一个被apache tomcat取代的项目）的性能。后来apache重新设计了jmeter，改进GUI并增加功能测试的能力。
+
+2011年11月， JMeter 成为apache的顶级项目。
 
 # jmeter资料
 
